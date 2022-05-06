@@ -1,247 +1,117 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>All Products - Wardrobe</title>
-  
-      <link rel="stylesheet" href="about.component.css" />
-    
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-    </head>
-    <body>
-     
-  
-  
-      <div class="small-container">
-        <div class="row row-2">
-          <h2>All Products</h2>
-          <select name="" id="">
-            <option value="">Default Sorting</option>
-            <option value="">Sort by Price</option>
-            <option value="">Sort by Popularity</option>
-            <option value="">Sort by Rating</option>
-            <option value="">Sort by sales</option>
-          </select>
+<div class="testimonial">
+  <div class="small-container">
+     <div class="row">
+        <div class="col-3">
+           <i class="fa fa-quote-left"></i>
+           <p>
+            Chris Xu is a Chinese American, who is the founder and CEO of the most iconic fashion domain Shein. Since his heyday in 2008 began, he has been known as the notorious e-commerce venture. He is a Chinese born in the United States, where he did his graduation from Washington University
+           </p>
+           <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+           </div>
+           <img src="assets/user-1.png" alt="" onclick="openImg(this)" id="image"/>
+           <h3>Sean Parker</h3>
         </div>
-  
-        <div class="row">
-          <div class="col-4">
-            <img src="assets/product-1.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
+        <div class="col-3">
+           <i class="fa fa-quote-left"></i>
+           <p>
+            It is important for you to know that Amazon was ranked topmost as the cheapest online shopping site in India. The app allows customers to even shop from the partner stores too, which means that you can shop your favorite brands in discounted prices sitting at home.
+           </p>
+           <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-          <div class="col-4">
-            <img src="assets/product-2.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-          <div class="col-4">
-            <img src="assets/product-3.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div class="col-4">
-            <img src="assets/product-4.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
+           </div>
+           <img src="assets/user-2.png" alt="" onclick="openImg(this)" id="image"/>
+           <h3>Michel Joe</h3>
         </div>
-        <div class="row">
-          <div class="col-4">
-            <img src="assets/product-5.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
+        <div class="col-3">
+           <i class="fa fa-quote-left"></i>
+           <p>
+            Ecommerce, also known as electronic commerce or internet commerce and also we can do the transfer of money and data to execute these transactions.The evening is therefore prime time for ecommerce sites, though departments are winding down closed until the following day.
+           </p>
+           <div class="rating">
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star"></i>
               <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-          <div class="col-4">
-            <img src="assets/product-6.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-          <div class="col-4">
-            <img src="assets/product-7.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div class="col-4">
-            <img src="assets/product-8.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
+           </div>
+           <img src="assets/user-3.png" alt="" onclick="openImg(this)" id="image"/>
+           <h3>Kaily Jenner</h3>
         </div>
-        <div class="row">
-          <div class="col-4">
-            <img src="assets/product-9.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-          <div class="col-4">
-            <img src="assets/product-10.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-          <div class="col-4">
-            <img src="assets/product-11.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-half-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-          <div class="col-4">
-            <img src="assets/product-12.jpg" alt="" />
-            <h4>Fashion Trends</h4>
-            <div class="rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star-o"></i>
-            </div>
-            <p>$50.00</p>
-          </div>
-  
-      </div>
-  
-        <div class="page-btn">
-          <span>1</span>
-          <span>2</span>
-          <span>3</span>
-          <span>4</span>
-          <span>&#8594;</span>
+     </div>
+  </div>
+</div>
+<!-- Brands -->
+<div class="brands">
+  <div class="small-container">
+     <div class="row">
+        <div class="col-5">
+           <img src="assets/logo-godrej.png" alt="" onclick="openImg(this)" id="image"/>
+        </div>
+        <div class="col-5">
+           <img src="assets/logo-oppo.png" alt="" onclick="openImg(this)" id="image"/>
+        </div>
+        <div class="col-5">
+           <img src="assets/logo-paypal.png" alt="" onclick="openImg(this)" id="image"/>
+        </div>
+        <div class="col-5">
+           <img src="assets/logo-philips.png" alt="" onclick="openImg(this)" id="image"/>
+        </div>
+        <div class="col-5">
+           <img src="assets/logo-coca-cola.png" alt="" onclick="openImg(this)" id="image"/>
+        </div>
+     </div>
+  </div>
+</div>
+<!-- Footer -->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>
+          Download App for Android <br />
+          and ios mobile phone
+        </p>
+        <div class="app-logo">
+          <img src="assets/play-store.png" alt="" />
+          <img src="assets/app-store.png" alt="" />
         </div>
       </div>
-  
-      <!-- Footer -->
-      <div class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col-1">
-              <h3>Download Our App</h3>
-              <p>
-                Download App for Android <br />
-                and ios mobile phone
-              </p>
-              <div class="app-logo">
-                <img src="assets/play-store.png" alt="" />
-                <img src="assets/app-store.png" alt="" />
-              </div>
-            </div>
-            <div class="footer-col-2">
-              <img src="assets/logo-white.png" alt="" />
-              <p>
-                Lorem, ipsum dolor sit amet consectetur <br />adipisicing elit.
-                Porro, eum?
-              </p>
-            </div>
-            <div class="footer-col-3">
-              <h3>Useful Links</h3>
-              <ul>
-                <li>Coupons</li>
-                <li>Blog Post</li>
-                <li>Return Policy</li>
-                <li>Join Affiliate</li>
-              </ul>
-            </div>
-  
-            <div class="footer-col-4">
-              <h3>Follow us</h3>
-              <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>YouTube</li>
-              </ul>
-            </div>
-          </div>
-          <hr />
-          <p class="copyright">Copyright 2022 - Wardrobe.com</p>
-        </div>
+      <div class="footer-col-2">
+        <img src="assets/logo-white.png" alt="" />
+        <p>
+          Ecommerce, also known as electronic commerce or internet commerce and also we can do the transfer of money and data to execute these transactions.The evening is therefore prime time for ecommerce sites, though departments are winding down closed until the following day.
+        </p>
       </div>
-    </body>
-  </html>
-  
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>Join Affiliate</li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow us</h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+        </ul>
+      </div>
+    </div>
+    <hr />
+    <p class="copyright">Copyright 2022 - Wardrobe.com</p>
+  </div>
+</div>

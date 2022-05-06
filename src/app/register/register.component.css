@@ -1,0 +1,83 @@
+ 
+  .account-page {
+      margin:0px;
+      padding-top: 135px;
+    background: radial-gradient(#fff, #ffd6d6);
+  }
+  .form-container {
+    background: #fff;
+    width: 750px;
+    height: 1000px;
+    position: relative;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: -90px;
+    margin-left: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #DA70D6;
+  }
+  .form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+    font-size: 24px;
+  }
+  
+  .form-btn {
+    display: inline-block;
+    width: 200px;
+
+  }
+  .form-container form {
+    
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 90px;
+    transition: transform 1s;
+  }
+  form input {
+    margin-left: 70px;
+    width: 500px;
+    height: 50px;
+    padding-right: 100px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #btn12 {
+    width: 500px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  form a {
+    font-size: 12px;
+    padding-top: 50px;
+  }
+.form-control
+{
+    margin-left: 70px;
+}
+.card-title{
+    color: #555;
+}
+.form-btn button{
+  width: 400px;
+}
+.form-group{
+ color:#555;
+ 
+}

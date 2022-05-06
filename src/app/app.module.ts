@@ -10,6 +10,15 @@ import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { ProductComponent } from './products/product/product.component';
+import { ProductsubComponent } from './products/productsub/productsub.component';
+import { CounterComponent } from './products/counter/counter.component';
+import { CounterchildComponent } from './products/counter/counterchild/counterchild.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
+import { RegisterComponent } from './register/register.component';
+
 
 @NgModule({
   declarations: [
@@ -20,11 +29,20 @@ import { AboutComponent } from './about/about.component';
     CartComponent,
     ProductsComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    ProductComponent,
+    ProductsubComponent,
+    CounterComponent,
+    CounterchildComponent,
+   
+    RegisterComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
