@@ -23,8 +23,17 @@
                 <span >Login</span>
               </div>
               <form action="" id="RegForm">
-                <input type="text" placeholder="Username" />
-                <input type="password" placeholder="Password" />
+  
+                <input type="email" Placeholder="Username" class="form-control" formControlName="Email" [ngClass]="{'is-invalid': Email.errors && (Email.touched || Email.dirty)}">
+              <div class="invalid-feedback" >
+                <strong *ngIf="Email.errors?.required">Email is required</strong>
+                <strong>Enter valid Email type(eg: sample@email)</strong>   
+                
+              </div>
+              <input type="password" Placeholder="Enter Your password" class="form-control" formControlName="password" [ngClass]="{'is-invalid': password.errors && (password.touched || password.dirty), 'is-valid':password.valid}">
+              <div class="invalid-feedback">
+                  <strong *ngIf="password.errors?.pattern" >Requires at least one number,<br> one uppercase letter,<br> one lowercase letter, <br> one of the following characters: ! @ & # $ % _ ? * </strong> <br>
+              </div>
                 <button type="submit" class="btn">Login</button>
                 <a href="">Forgot Password</a> <br> <br>
                  <a href="register">Not Registered Yet ?</a>
