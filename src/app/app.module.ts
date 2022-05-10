@@ -18,6 +18,8 @@ import { CounterchildComponent } from './products/counter/counterchild/counterch
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
+import { PaymentComponent } from './payment/payment.component';
+
 
 
 @NgModule({
@@ -34,15 +36,14 @@ import { RegisterComponent } from './register/register.component';
     ProductsubComponent,
     CounterComponent,
     CounterchildComponent,
-   
     RegisterComponent,
-    
+    PaymentComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

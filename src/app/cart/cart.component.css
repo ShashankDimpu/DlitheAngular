@@ -52,3 +52,41 @@ td:last-child {
 th:last-child {
   text-align: right;
 }
+.form-container span {
+  font-weight: bold;
+ padding-top: 0 20px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  width: 200px;
+  display: inline-block;
+  font-size: 22px;
+}
+
+.form-btn {
+  display: inline-block;
+}
+.form-container form {
+  max-width: 300px;
+ padding-top: 0 10px;
+  position: relative;
+  top: 90px;
+  transition: transform 1s;
+}
+form .btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+.form-container {
+  background: rgb(224, 130, 248);
+  width: 500px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+ padding-top: 5px;
+  margin-left: 930px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #DA70D6;
+}
