@@ -8,7 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products/products.component';
-import { ContactComponent } from './contact/contact.component';
+import { contactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { ProductComponent } from './products/product/product.component';
 import { ProductsubComponent } from './products/productsub/productsub.component';
@@ -30,7 +30,7 @@ import { PaymentComponent } from './payment/payment.component';
     SidenavComponent,
     CartComponent,
     ProductsComponent,
-    ContactComponent,
+    contactComponent,
     AboutComponent,
     ProductComponent,
     ProductsubComponent,
